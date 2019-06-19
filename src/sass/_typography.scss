@@ -1,0 +1,263 @@
+@font-face {
+	font-family: Roboto;
+    src: url('font/Roboto/Roboto-Light.ttf');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Roboto;
+    src: url('font/Roboto/Roboto-LightItalic.ttf');
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: Roboto;
+    src: url('font/Roboto/Roboto-Thin.ttf');
+	font-weight: 200;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Roboto;
+    src: url('font/Roboto/Roboto-ThinItalic.ttf');
+	font-weight: 200;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: Roboto;
+    src: url('font/Roboto/Roboto-Regular.ttf');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Roboto;
+    src: url('font/Roboto/Roboto-Italic.ttf');
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: Roboto;
+    src: url('font/Roboto/Roboto-Medium.ttf');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Roboto;
+    src: url('font/Roboto/Roboto-MediumItalic.ttf');
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: Roboto;
+    src: url('font/Roboto/Roboto-Bold.ttf');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Roboto;
+    src: url('font/Roboto/Roboto-BoldItalic.ttf');
+	font-weight: 600;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: Roboto;
+    src: url('font/Roboto/Roboto-Black.ttf');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Roboto;
+    src: url('font/Roboto/Roboto-BlackItalic.ttf');
+	font-weight: 700;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: Roboto;
+    src: url('font/Roboto/Roboto-Light.ttf');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Roboto;
+    src: url('font/Roboto/Roboto-LightItalic.ttf');
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: Roboto;
+    src: url('font/Roboto/Roboto-Thin.ttf');
+	font-weight: 200;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Roboto;
+    src: url('font/Roboto/Roboto-ThinItalic.ttf');
+	font-weight: 200;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: Poppins;
+    src: url('font/Poppins/Poppins-Regular.ttf');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Poppins;
+    src: url('font/Poppins/Poppins-Italic.ttf');
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: Poppins;
+    src: url('font/Poppins/Poppins-Medium.ttf');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Poppins;
+    src: url('font/Poppins/Poppins-MediumItalic.ttf');
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: Poppins;
+    src: url('font/Poppins/Poppins-Bold.ttf');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Poppins;
+    src: url('font/Poppins/Poppins-BoldItalic.ttf');
+	font-weight: 600;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: Poppins;
+    src: url('font/Poppins/Poppins-Black.ttf');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Poppins;
+    src: url('font/Poppins/Poppins-BlackItalic.ttf');
+	font-weight: 700;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: Comfortaa;
+    src: url('font/Comfortaa/Comfortaa.ttf');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: Poiret One;
+    src: url('font/PoiretOne/PoiretOne-Regular.ttf');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: PT Sans;
+    src: url('font/PTSans/PT-Sans.ttf');
+	font-weight: 400;
+	font-style: normal;
+}
+
+p {
+    font-size: 15px;
+}
+
+h1, h2, h3, h4 {
+    font-family: Comfortaa;
+}
+
+h1 {
+    font-size: 3em;
+	line-height: 1.05em;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 2.25em;
+    line-height: 1.25;
+}
+
+h3 {
+    font-size: 1.75em;
+    line-height: 1.25em;
+}
+
+h4 {
+    font-size: 1.125em;
+    line-height: 1.22222222em;
+}
+
+ul {
+    margin-left: 18px;
+}
+
+ol {
+    margin-left: 16px
+}
+
+.heading {
+	&-light {
+		letter-spacing: 1px;
+		font-family: Poiret One;
+	}
+
+	&-strong {
+		font-weight: bold;
+	}
+}
+
+.text {
+	&-brand {
+		font-family: Comfortaa;
+		font-weight: bold;
+	}
+
+	&-description {
+		margin: 25px 20px;
+		text-align: justify;
+		font-family: Roboto;
+		line-height: 1.75;
+		font-size: 16px;
+	}
+
+	&-secondary {
+		color: rgba(0, 0, 0, .4);
+		font-family: Comfortaa;
+		font-weight: bold;
+		line-height: 1.5;
+	}
+}
+
+b {
+	font-weight: bold;
+}

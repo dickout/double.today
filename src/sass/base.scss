@@ -1,0 +1,118 @@
+/* Clear browser styles and include variables */
+
+@import 'clear', 'variables'; 
+
+/* Typography */
+
+@import 'typography';
+
+html, body, .wrapper {
+    min-height: 100vh;
+    max-height: 100vh;
+}
+
+html, body {
+    overflow: hidden;
+}
+
+.wrapper {
+    position: relative;
+    overflow: auto;
+}
+
+@import 'responsive', 'landing';
+
+.button {
+    font-family: PT Sans, Roboto, Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    color: black;
+    text-transform: uppercase;
+    padding: 12px 30px;
+    text-align: center;
+    transition: $transition-default;
+    background: white;
+    user-select: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+    letter-spacing: 1px;
+
+    .fa {
+        margin-right: 15px;
+    }
+
+    span {
+        font-weight: inherit;
+        position: relative;
+        top: 0;
+        color: inherit;
+    }
+
+    &-group {
+        position: relative;
+        margin-top: 20px;
+
+        .button {
+            margin-right: 15px;
+        }
+    }
+
+    &-outline {
+        box-shadow: none;
+        border: 1px solid black;
+    }
+
+    &-rounded {
+        border-radius: 24px;
+    }
+
+    &-primary {
+        color: white;
+        background: $color-primary;
+
+        &:hover {
+            background: lighten($color-primary, 10);
+        }
+    }
+
+    &-play {
+        color: white;
+        background: $color-primary;
+        padding-left: 50px;
+        padding-right: 50px;
+
+        &:before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            transition: $transition-default;
+            background: linear-gradient(45deg, #FF512F, #DD2476);
+            opacity: 0;
+            border-radius: inherit;
+        }
+
+        &:hover {
+            &:before {
+                opacity: 1;
+            }   
+        }
+    }
+
+    &:hover {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, .4);
+    }
+}
+
+a[href] {
+    color: $color-primary;
+    font-weight: bold;
+}
+
+br {
+    user-select: none;
+}

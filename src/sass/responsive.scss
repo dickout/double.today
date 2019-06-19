@@ -1,0 +1,53 @@
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 576px) {
+    .container {
+      max-width: 540px;
+    }
+}
+  
+@media (min-width: 768px) {
+    .container {
+      max-width: 720px;
+    }
+}
+  
+@media (min-width: 992px) {
+    .container {
+      max-width: 960px;
+    }
+}
+  
+@media (min-width: 1200px) {
+    .container {
+      max-width: 1140px;
+    }
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+[class*="col-"] {
+    position: relative;
+    width: 100%;
+}
+
+.col {
+    flex: 0 0 auto;
+    max-width: auto;
+}
+
+@for $i from 1 to 12 {
+    .col-#{$i} {
+        flex: 0 0 percentage($i / 12);
+        max-width: 0 0 percentage($i / 12);
+    }
+}
